@@ -28,6 +28,11 @@ body{
     color: #2ca7e3;
     margin: 20px 0;
 }
+.links>a:nth-child(3){
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 20px 0;
+}
 .links>a>img{
     width: 50px;
     height: auto;
@@ -42,4 +47,5 @@ footer p{
 footer img{
     width: 80px;
     height: auto;
+    border-radius: 50px;
 }
