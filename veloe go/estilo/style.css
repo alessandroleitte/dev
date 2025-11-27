@@ -148,5 +148,34 @@ label{
 		background-image: url("../imagens/download.jpeg");
 		background-size: 100% 100%;
 		background-position: center center;
+		width: 65%;
+		height: 100%;
+	}
+	.container{
+		width: 35%;
+		margin-left: 65%;
+		height: 100%;
+	}
+	.container img{
+		width: 70%;
+		margin: 0 auto 10px auto;
+	}
+	.logo p{
+		margin-bottom: 20px;
+	}
+	input{
+		width: 50%;
+		padding: 10px;
+	}
+	.nsenha{
+		width: 75%;
+	}
+	.check{
+		width: 30%;
+		margin: 20px auto;
+	}
+	.continuar , .primeiro{
+		width: 55%;
+		height: 30px;
 	}
 }
