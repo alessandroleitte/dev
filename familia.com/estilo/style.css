@@ -197,8 +197,6 @@ footer a{
 	}
 	.imagens img:hover{
 		background-color: var(--color2);
-		width: 30px;
-		height: 30px;
 	}
 	.item-mobile img:hover{
 		width: 30px;
@@ -214,7 +212,6 @@ footer a{
 		
 	}
 	.item-mobile{
-		display: none;
 		width: 30%;
 		background-color: var(--color3);
 		margin: 0 auto;
@@ -226,11 +223,31 @@ footer a{
 	}
 	.item-mobile a{
 		text-decoration: none;
-		font-size: 1.5em;
+		font-size: 1em;
 		color: var(--color5);
 	}
 	.item-mobile li:hover{
 		background-color: #bdbcbc;
 	}
-
+	.container{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.destaque{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.destaque img{
+		width: 95%;
+		padding: 0;
+	}
+	.item-grid{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.cookie{
+		bottom: 30px;
+		left: 5px;
+	}
 }
