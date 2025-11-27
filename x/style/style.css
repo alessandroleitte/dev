@@ -112,18 +112,38 @@ span{
     margin-top: 90vh;
 }
 @media screen and (max-width: 800px){
+    .container{
+        height: 95vh;
+    }
+    .logo{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        margin: 20px 0 0 10px;
+    }
     .right{
-        width: 80vw;
-        height: 100%;
-        padding: 5%;
+        width: 100%;
+        margin: 0 auto;
+        height: 100vh;
         position: relative;
-        margin-left: 0;
         text-align: center;
+    }
+    h1{
+        width: 70%;
+        font-size: 2.3em;
+        margin: 20px auto;
+    }
+     .right span{
+        font-size: 1.2em;
+        padding-left: 0;
     }
     .new, .login{
         text-align: center;
-        margin: 20px auto;
         width: 80%;
+    }
+    .new .option{
+        font-size: 0.8em;
+        width: 100%;
     }
     .logo{
         position: relative;
@@ -135,5 +155,9 @@ span{
     .end{
         width: 100%;
         margin: 0 auto;
+    }
+    .login h2{
+        margin-top: 50px;
+        text-align: left;
     }
 }
