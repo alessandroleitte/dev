@@ -182,6 +182,9 @@ footer a{
 	header{
 		width: 100%;
 	}
+	body{
+		width: 100vw;
+	}
 	.menu{
 		display: none;
 	}
@@ -191,7 +194,7 @@ footer a{
 	}
 	.menu-mobile .imagens{
 		width: 50%;
-		margin-left: 10%;
+		margin-left: 2%;
 		text-align: right;
 		display: inline;
 	}
@@ -249,5 +252,31 @@ footer a{
 	.cookie{
 		bottom: 30px;
 		left: 5px;
+	}
+	footer{
+		width: 100vw;
+	}
+	.social p, span{
+		display: none;
+	}
+	.social{
+		display: flex;
+		margin: 0 auto;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		flex-flow: column wrap;
+	}
+	.social-logo{
+		width: 40px;
+		height: auto;
+		margin: 5px;
+	}
+	.copy{
+		width: 60%;
+		margin: 10px auto;
+		text-align: justify;
+		padding: 20px;
+		font-size: 0.7em;
 	}
 }
